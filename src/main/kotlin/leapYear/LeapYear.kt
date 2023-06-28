@@ -1,5 +1,3 @@
 package leapYear
 
-class LeapYear {
-    fun isLeapYear(year: Int) = year % 4 == 0
-}
+fun isLeapYear(year: Int) = year % 4 == 0

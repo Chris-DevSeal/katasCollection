@@ -5,9 +5,6 @@ import org.junit.jupiter.params.provider.CsvSource
 import kotlin.test.assertEquals
 
 class LeapYearTest {
-
-    private val leapYear = LeapYear();
-
     @ParameterizedTest
     @CsvSource(
         "1234, false",
@@ -15,7 +12,7 @@ class LeapYearTest {
         "2000, true"
     )
     fun isLeapYearTest(input: Int, expected: Boolean) {
-        val actual = leapYear.isLeapYear(input)
+        val actual = isLeapYear(input)
 
         assertEquals(expected, actual)
     }
