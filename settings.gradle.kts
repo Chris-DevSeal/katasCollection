@@ -1,3 +1,2 @@
-
-rootProject.name = "kotlinKataCollection"
+rootProject.name = "katasCollection"
 
